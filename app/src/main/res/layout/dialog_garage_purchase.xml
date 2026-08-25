@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_800"
+    android:orientation="vertical"
+
+    tools:context=".GaragePurchaseDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:text="@string/dialog_purchase_item_header"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/close_button"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@drawable/selector_button_general"
+            android:text="@string/symbol_close"
+            android:textColor="@drawable/selector_button_general_text"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/purchase_icon"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="10dp"
+        android:src="@drawable/upgrade_generic" />
+
+    <TextView
+        android:id="@+id/purchase_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/purchase_dialog_confirm_text"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:text="@string/purchase_dialog_text_yes"
+        android:textColor="@drawable/selector_button_general_text"
+        android:textSize="20sp" />
+</LinearLayout>

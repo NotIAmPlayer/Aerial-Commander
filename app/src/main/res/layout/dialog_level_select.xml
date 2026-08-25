@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/blue_800"
+
+    tools:context=".LevelSelectDialog"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_level_selection_header"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:id="@+id/lsCloseButton"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/symbol_close"
+            android:textSize="20sp"
+            android:backgroundTint="@drawable/selector_button_general"
+            android:textColor="@drawable/selector_button_general_text"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/lsLevel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/level_stage_1"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:textColor="@drawable/selector_button_general_text"
+        />
+
+    <Button
+        android:id="@+id/lsLevel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/coming_soon"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:textColor="@drawable/selector_button_general_text"
+        android:enabled="false"
+        />
+
+    <!--
+    <Button
+        android:id="@+id/lsLevel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/coming_soon"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:textColor="@drawable/selector_button_general_text"
+        android:enabled="false"
+        />
+    -->
+
+    <!--
+    <Button
+        android:id="@+id/lsLevel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/level_stage_4"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:textColor="@drawable/selector_button_general_text"
+        android:enabled="false"
+        />
+
+    <Button
+        android:id="@+id/lsLevel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/level_stage_5"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:textColor="@drawable/selector_button_general_text"
+        android:enabled="false"
+        />
+        -->
+</LinearLayout>

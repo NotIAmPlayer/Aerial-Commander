@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Colors from Tailwind CSS -->
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_700">#374151</color>
+
+    <color name="rose_700">#BE123C</color>
+
+    <color name="amber_500">#F59E0B</color>
+    <color name="amber_700">#B45309</color>
+    <color name="amber_900">#78350F</color>
+    <color name="amber_950">#451A03</color>
+
+    <color name="blue_800">#1E40AF</color>
+    <color name="blue_950">#172554</color>
+
+    <color name="game_sky">#12AFD2</color>
+</resources>

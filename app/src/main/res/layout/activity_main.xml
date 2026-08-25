@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:background="@drawable/bg_main_menu"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_gravity="top|center"
+            android:layout_marginVertical="20dp"
+            android:src="@drawable/logo_new"
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:translationX="-28dp"
+        >
+            <ImageButton
+                android:tooltipText="@string/tooltip_hangar"
+                android:id="@+id/garageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/garage_button"
+                android:translationY="-70dp"
+                />
+
+            <ImageButton
+                android:tooltipText="@string/tooltip_play"
+                android:id="@+id/playButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:src="@drawable/play_button"
+            />
+        </LinearLayout>
+
+        <ImageButton
+            android:tooltipText="@string/tooltip_settings"
+            android:id="@+id/settingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:background="@color/transparent"
+            android:src="@drawable/settings_button"
+        />
+    </LinearLayout>
+
+</LinearLayout>

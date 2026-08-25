@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/blue_800"
+
+    tools:context=".LevelCompleteDialog"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_complete_header"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/level_complete_enemy_kills"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/text_enemies_defeated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_complete_health_remaining"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/text_health_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100 (100%)"
+            android:textColor="@color/white"
+            android:layout_gravity="right"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/level_complete_coins_get"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:id="@+id/gold_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_gold"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="5dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/button_exit"
+        android:backgroundTint="@drawable/selector_button_general"
+        android:textColor="@drawable/selector_button_general_text"
+        />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Aerial Commander</string>
+
+    <string name="dialog_level_selection_header">LEVEL SELECTION</string>
+    <string name="level_stage_1">Stage 1</string>
+    <string name="level_stage_2">Stage 2</string>
+    <string name="level_stage_3">Stage 3</string>
+    <string name="level_stage_4">Stage 4</string>
+    <string name="level_stage_5">Stage 5</string>
+
+    <string name="garage_header">HANGAR</string>
+    <string name="garage_text_gold">"GOLD -  "</string>
+    <string name="item_armor_basic">Basic Body Protection</string>
+    <string name="item_armor_basic_caps">BASIC BODY PROTECTION</string>
+    <string name="item_armor_basic_description">Industrial standard plane body protection.</string>
+    <string name="item_armor_basic_stats">HP: 100</string>
+
+    <string name="item_armor_upgrade1">Steel Body Protection</string>
+    <string name="item_armor_upgrade1_caps">STEEL BODY PROTECTION</string>
+    <string name="item_armor_upgrade1_description">Steel-plated plane body protection for increased endurance.</string>
+    <string name="item_armor_upgrade1_stats">HP: 200</string>
+
+    <string name="item_armor_upgrade2">Enforced Body Protection</string>
+    <string name="item_armor_upgrade2_caps">ENFORCED BODY PROTECTION</string>
+    <string name="item_armor_upgrade2_description">Rigid metallic body protection, increasing endurance and defense.</string>
+    <string name="item_armor_upgrade2_stats">HP: 450</string>
+
+    <string name="item_equip">EQUIP</string>
+    <string name="item_equipped">EQUIPPED</string>
+    <string name="item_buy">"BUY - %d G"</string>
+
+    <string name="settings_header">CREDITS</string>
+    <string name="settings_general">GENERAL</string>
+    <string name="settings_controls">CONTROL MODE</string>
+
+    <string name="button_pause">PAUSE</string>
+
+    <string name="dialog_pause_menu_header">PAUSED</string>
+    <string name="button_resume">Resume Game</string>
+    <string name="button_exit">Return to Menu</string>
+
+    <string name="dialog_purchase_item_header">CONFIRM PURCHASE</string>
+    <string name="purchase_dialog_confirm_text">Are you sure to purchase %s for %d Gold?</string>
+
+    <string name="dialog_purchase_failed_header">INSUFFICIENT GOLD</string>
+    <string name="purchase_dialog_failed_text">Unable to purchase %s. Keep playing to earn more Gold!</string>
+
+    <string name="purchase_dialog_text_yes">PURCHASE</string>
+
+    <string name="generic_dialog_text_ok">OK</string>
+    <string name="generic_dialog_text_yes">YES</string>
+    <string name="generic_dialog_text_no">NO</string>
+
+    <string name="title_activity_test_fullscreen">TestFullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_test_game">TestGameActivity</string>
+
+    <string name="game_over">GAME OVER</string>
+    <string name="level_complete_header">LEVEL COMPLETE</string>
+    <string name="level_complete_enemy_kills">Enemies Defeated:</string>
+    <string name="level_complete_health_remaining">Health Remaining:</string>
+    <string name="level_complete_coins_get">Coins Earned:</string>
+
+    <string name="coming_soon">Coming Soon!</string>
+
+    <string name="symbol_close">✖</string>
+    <string name="symbol_pause">⏸</string>
+
+    <string name="tooltip_hangar">Hangar</string>
+    <string name="tooltip_play">Play</string>
+    <string name="tooltip_settings">Credits</string>
+</resources>
